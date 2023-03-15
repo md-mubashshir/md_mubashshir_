@@ -67,7 +67,7 @@ section .title {
     text-align: center;
     font-size: 40px;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -127,18 +127,20 @@ section .title::after {
     display: block;
     color: #ffffff;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: bold;
     margin-left: 25px;
     transition: color 0.3s ease;
 }
 
 .navbar .menu li a:hover {
-    color: black;
+    color: rgb(0, 0, 0);
+    font: bold;
     text-decoration: underline;
 }
 
 .navbar.sticky .menu li a:hover {
-    color: #fff;
+    color: #000000;
+    font-weight: bold;
 }
 
 /* menu btn styling */
@@ -371,7 +373,8 @@ section .title::after {
 }
 
 .skills .skills-content .left p {
-    text-align: center;
+    text-align: justify;
+    padding: 2px 49px;
 }
 
 .skills .skills-content .left a {
