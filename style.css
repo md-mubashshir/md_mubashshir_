@@ -133,9 +133,9 @@ section .title::after {
 }
 
 .navbar .menu li a:hover {
-    color: rgb(0, 0, 0);
-    font: bold;
-    text-decoration: underline;
+    color: #000000;
+    font: bolder;
+    text-decoration:underline;
 }
 
 .navbar.sticky .menu li a:hover {
@@ -211,7 +211,7 @@ section .title::after {
 
 .home .home-content .text-2 {
     color: #fff;
-    font-size: 75px;
+    font-size: 60px;
     font-weight: 600;
     margin-left: -3px;
 }
@@ -464,6 +464,9 @@ section .title::after {
 .teams .carousel .card:hover {
     background: rgb(158, 78, 196);
 }
+.teams .carousel .card:hover .text{
+   color: #000;
+}
 
 .teams .carousel .card .box {
     display: flex;
@@ -478,6 +481,7 @@ section .title::after {
 }
 
 .teams .carousel .card .text {
+    color: #fff;
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
@@ -685,7 +689,7 @@ footer span a {
         width: 100%;
         left: -100%;
         top: 0;
-        background: #111;
+        background: #000;
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
@@ -870,3 +874,12 @@ footer span a {
 .text-black p {
     color: #000;
 }
+
+/* .box a{
+    color: #fff;
+    text-decoration: underline;
+}
+.card .box a :hover{ 
+    color:#000;
+    text-decoration: underline;
+}  */
